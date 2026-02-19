@@ -16,6 +16,6 @@ try:
     result = numerator / denominator
 except ZeroDivisionError:
     result = None
-    print("Warning: Division by zero avoided. Result set to None.")
+    print("Warning: NN Division by zero avoided. Result set to None.")
 
 print(f"Result: {result}")
